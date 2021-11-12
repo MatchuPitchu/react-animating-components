@@ -14,7 +14,8 @@
   /* transition: all 0.3s ease-out; */
 }
 
-/* .ModalClosed {
+/* 
+.ModalClosed {
   opacity: 0;
   transform: translateY(-100%);
 }
@@ -25,13 +26,21 @@
 } */
 
 /* 2) css animation with keyframes -> executed when classes below are added to element */
-.ModalClosed {
+.ModalOpen {
   /* if nothing defined (like 'forwards'), it jumps back to starting position after animation  */
-  animation: closeModal 0.4s ease-out forwards;
+  animation: openModal 0.4s ease-out forwards;
 }
 
-.ModalOpen {
-  animation: openModal 1s ease-out forwards;
+.ModalClosed {
+  animation: closeModal 1s ease-out forwards;
+}
+
+/* 3) css for CSSTransition component with 'trunk' */
+.fade-slide-enter-active {
+  animation: openModal 0.4s ease-out forwards;
+}
+.fade-slide-exit-active {
+  animation: closeModal 1s ease-out forwards;
 }
 
 @keyframes openModal {

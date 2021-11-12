@@ -37,10 +37,10 @@ const App = () => {
         timeout={500}
         mountOnEnter
         unmountOnExit
-        onEnter={() => console.log('onEnter')} // right before starting onEntering mode
+        onEnter={() => console.log('onEnter')} // right before starting onEntering mode, remains only for 1 frame
         onEntering={() => console.log('onEntering')}
         onEntered={() => console.log('onEntered')}
-        onExit={() => console.log('onExit')} // right before starting onExiting mode
+        onExit={() => console.log('onExit')} // right before starting onExiting mode, remains only for 1 frame
         onExiting={() => console.log('onExiting')}
         onExited={() => console.log('onExited')}
       >
