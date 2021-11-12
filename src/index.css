@@ -8,6 +8,7 @@ body {
   border: 1px solid #521751;
   font: inherit;
   padding: 8px;
+  margin: 0.2rem;
   background-color: #521751;
   color: white;
   cursor: pointer;
