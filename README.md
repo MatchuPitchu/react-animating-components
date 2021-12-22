@@ -1,7 +1,6 @@
-# React - Animating React Components
+# React Testing Library Tutorial as part of the complete React Course
 
-- CSS Animations & why they are sometimes not enough
-- Animating React Components with third party libraries
+- practical course about how to use react testing library and jest to test your react app
 
 # Getting Started with Create React App
 
